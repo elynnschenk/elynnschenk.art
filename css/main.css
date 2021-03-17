@@ -75,20 +75,32 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-flow: row wrap;
+    max-width: 960px;
 }
-.textiles-content-wrapper {
-    padding: 20px 0 40px 0;
+.textiles-wrapper {
+    max-width: 300px;
+    padding: 10px;
+}
+.textile {
+    width: 100%;
 }
 /* ====================================================
-  ILLUSTRATION page
+  DESIGN page
 ====================================================== */
-.illustration {
+.designs {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-flow: row wrap;
+    max-width: 960px;
 }
-.illustration-content-wrapper {
-    padding: 20px 0 40px 0;
+.design-wrapper {
+    max-width: 300px;
+    padding: 10px;
+}
+.design {
+    width: 100%;
 }
 /* ====================================================
   ABOUT page
